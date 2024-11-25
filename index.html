@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demon Slayer Fan Site</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+  <header class="header-fixo">
+    <h1 class="titulo-neon">Demon Slayer</h1>
+    <nav class="menu">
+      <a href="#introducao">Início</a>
+      <a href="#personagens">Personagens</a>
+      <a href="#episodios">Episódios</a>
+      <a href="#contato">Contato</a>
+      <button id="toggle-tema">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Seção: Introdução -->
+    <section id="introducao" class="secao">
+      <h2>O universo de Demon Slayer</h2>
+      <img src="banner-demon-slayer.jpg" alt="Banner Demon Slayer" class="banner">
+      <p>Em um Japão feudal envolto por mistérios e perigos, Demon Slayer nos convida a embarcar na jornada emocionante de Tanjiro Kamado, um jovem bondoso que vê sua vida virar de cabeça para baixo quando sua família é brutalmente assassinada por demônios. A única sobrevivente é sua irmã, Nezuko, mas ela carrega um destino sombrio: foi transformada em um demônio.
+
+        Movido por um amor fraternal inquebrável e uma esperança desesperada de salvá-la, Tanjiro se junta ao seleto e rigoroso Corpo de Extermínio de Demônios. Ele não é apenas um espadachim habilidoso em constante crescimento, mas um coração puro em um mundo corrompido. A história ganha ainda mais vida com personagens memoráveis, como Zenitsu, um covarde com flashes de coragem surpreendente, e Inosuke, o guerreiro de espírito selvagem e uma cabeça dura — literalmente.
+        
+        Enquanto enfrenta inimigos assustadores, Tanjiro descobre que, por trás de cada demônio, há uma história de dor e tragédia. Isso o faz lutar não apenas com sua lâmina afiada, mas também com compaixão, uma rara luz em um mundo mergulhado na escuridão. Demon Slayer é uma história de perdas devastadoras, vínculos inquebráveis e uma determinação que atravessa as barreiras do sobrenatural, envolta em uma animação deslumbrante e batalhas de tirar o fôlego. Uma saga que nos lembra que, mesmo nos momentos mais sombrios, a humanidade pode brilhar como o amanhecer.</p>
+    </section>
+
+    <!-- Seção: Galeria de Personagens -->
+    <section id="personagens" class="secao">
+      <h2>Personagens Principais</h2>
+      <div class="galeria-personagens">
+        <div class="personagem">
+          <img src="tanjiro.jpg" alt="Tanjiro Kamado">
+          <h3>Tanjiro Kamado</h3>
+          <p>Tanjiro tem como fio principal 2 objetivos: transformar sua irmã novamente em humana e se vingar do demônio que destruiu sua família.</p>
+        </div>
+        <div class="personagem">
+          <img src="nezuko.jpg" alt="Nezuko Kamado">
+          <h3>Nezuko Kamado</h3>
+          <p>Irmã de Tanjiro, transformada em demônio, mas cheia de humanidade e amor.</p>
+        </div>
+        <div class="personagem">
+          <img src="zenitsu.jpg" alt="Zenitsu Agatsuma">
+          <h3>Zenitsu Agatsuma</h3>
+          <p>Zenitsu foi treinado por um ex-Hashira e dominou a Respiração do Trovão, mas por ele conter uma personalidade e pensamentos difíceis.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Episódios Favoritos -->
+    <section id="episodios" class="secao">
+      <h2>Episódios Favoritos</h2>
+      <div class="galeria-episodios">
+        <div class="episodio">
+          <img src="episodio.jpg" alt="Episódio 1">
+          <h3>Episódio 17</h3>
+          <p>Seja mestre de uma única coisa.</p>
+        </div>
+        <div class="episodio">
+          <img src="episodio20.jpg" alt="Episódio 20">
+          <h3>Episódio 20</h3>
+          <p>Família de faz-de-conta.</p>
+        </div>
+        <div class="episodio">
+          <img src="episodio21.jpg" alt="Episódio 26">
+          <h3>Episódio 21</h3>
+          <p>O clímax da primeira temporada.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção: Contato -->
+    <section id="contato" class="secao">
+      <h2>Contato</h2>
+      <form id="form-contato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Demon Slayer. Criado por Marcus Nani!</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
